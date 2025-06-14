@@ -2,9 +2,10 @@ package com.example.tema2.data.models
 
 import androidx.room.Embedded
 
-data class UiPost (
-    @Embedded
+data class UiPost(
+    @Embedded(prefix = "post_")
     val post: Post,
-    @Embedded
+
+    @Embedded(prefix = "user_")
     val user: User
 )
