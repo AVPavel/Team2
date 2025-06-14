@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.tema2.data.PostRepository
+import com.example.tema2.data.remote.PostRepository
 import com.example.tema2.data.models.UiPost
 import kotlinx.coroutines.launch
 

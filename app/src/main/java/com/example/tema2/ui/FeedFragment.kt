@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.tema2.data.AppDatabase
-import com.example.tema2.data.PostRepository
+import com.example.tema2.data.remote.PostRepository
 import com.example.tema2.data.remote.RetrofitClient
 import com.example.tema2.databinding.FragmentFeedBinding
 

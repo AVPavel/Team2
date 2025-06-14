@@ -1,7 +1,7 @@
-package com.example.tema2.data
+package com.example.tema2.data.remote
 
+import com.example.tema2.data.AppDao
 import com.example.tema2.data.models.UiPost
-import com.example.tema2.data.remote.ApiService
 
 class PostRepository(
     private val apiService: ApiService,
